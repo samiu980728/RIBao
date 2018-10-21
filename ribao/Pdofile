@@ -1,0 +1,5 @@
+ptform:ios '7.0'
+target 'ribao' do
+pod 'Masonry'
+end
+
