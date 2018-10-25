@@ -9,6 +9,8 @@
 #import "VVeiw.h"
 #import <Masonry.h>
 #import "MessageTableViewCell.h"
+#import "AnalysisJSONModel.h"
+
 
 @implementation VVeiw
 
@@ -65,9 +67,66 @@
 
 - (void)initMainTableView
 {
-    //在这里解析数据
+//    //在这里解析数据
+//   // _mainMessageTableView = [[UITableView alloc] init];
+//
+//    NSNotification * notification = [NSNotification notificationWithName:@"notification" object:nil];
+//    [[NSNotificationCenter defaultCenter] postNotification:notification];
+//
+//
+//    _analyJSONMutArray = [[NSMutableArray alloc] init];
+//
+//    NSLog(@"----------------------");
+//
+//
+//    _analyJSONModel = [[AnalysisJSONModel alloc] init];
+//
+//    [_analyJSONModel AnalysisJSON];
+
+    //不是应该在这里打印 NSLog(@"_JSONModelMut ====  ---- %@ ----",_JSONModelMut);吗？
+
+    //[analyJSONModel AnalysisJSON];
+
+
+//    NSLog(@"analyJSONModel.JSONModelMut = %@",_analyJSONModel.JSONModelMut);
+//
+//    if ( [_analyJSONModel.JSONModelMut isKindOfClass:[NSArray class]] && _analyJSONModel.JSONModelMut.count > 0 ){
+//    _analyJSONMutArray = [NSMutableArray arrayWithArray:_analyJSONModel.JSONModelMut];
+//    }
+//    NSLog(@"_analyJSONMutArray = %@",_analyJSONMutArray);
+    
+    //[_mainMessageTableView registerClass:<#(nullable Class)#> forCellReuseIdentifier:<#(nonnull NSString *)#>]
+}
+
+//接收通知后调用的方法
+- (void)changJSONModel:(NSNotification *)noti
+{
+    //_analyJSONModel = [[AnalysisJSONModel alloc] init];
+    
+    //不是应该在这里打印 NSLog(@"_JSONModelMut ====  ---- %@ ----",_JSONModelMut);吗？
+    
+    
+    
+    NSLog(@"analyJSONModel.JSONModelMut = %@",_analyJSONModel.JSONModelMut);
+    
+    if ( [_analyJSONModel.JSONModelMut isKindOfClass:[NSArray class]] && _analyJSONModel.JSONModelMut.count > 0 ){
+        _analyJSONMutArray = [NSMutableArray arrayWithArray:_analyJSONModel.JSONModelMut];
+    }
+    NSLog(@"_analyJSONMutArray = %@",_analyJSONMutArray);
+    
+    //在这里面进行cell 单元格的赋值
     _mainMessageTableView = [[UITableView alloc] init];
-    [_mainMessageTableView registerClass:<#(nullable Class)#> forCellReuseIdentifier:<#(nonnull NSString *)#>]
+    
+    _mainMessageTableView.delegate = self;
+    _mainMessageTableView.dataSource = self;
+    [self addSubview:_mainMessageTableView];
+    
+    [_mainMessageTableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(self);
+        make.top.equalTo(self).offset(100);
+        make.width.mas_equalTo([UIScreen mainScreen].bounds.size.width);
+        make.height.mas_equalTo([UIScreen mainScreen].bounds.size.height);
+    }];
 }
 
 - (void)initTableView
@@ -83,11 +142,13 @@
     
     //给tableView 的高度 记得在下面留下50  因为还有 完成 和 夜间两个按钮
     [_messageTableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self);
-        make.top.equalTo(self);
-        make.bottom.equalTo(self).offset(-50);
-        make.width.mas_equalTo(250);
-        make.height.mas_equalTo([UIScreen mainScreen].bounds.size.height-50);
+//        make.left.equalTo(self);
+//        make.top.equalTo(self);
+//        make.bottom.equalTo(self).offset(-50);
+//        make.width.mas_equalTo(250);
+//        make.height.mas_equalTo([UIScreen mainScreen].bounds.size.height-50);
+
+        make.edges.equalTo(self);
     }];
     
 
@@ -99,7 +160,9 @@
     
     cell = [_messageTableView dequeueReusableCellWithIdentifier:@"messageCell" forIndexPath:indexPath];
     
-    if ( indexPath.row == 0 ){
+    //if ( indexPath.row == 0 ){
+        
+        //可以加一个判断 如果
         cell.nameLabel.text = @"萨缪";
         cell.nameLabel.font = [UIFont systemFontOfSize:13];
         
@@ -110,7 +173,7 @@
 //        NSAttributedString * strA = [NSAttributedString attributedStringWithAttachment:textAttach];
 //        cell.imageLabel.attributedText = strA;
         cell.imageLabel.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"122.jpg"]];
-    }
+   // }
     
     
     
@@ -129,6 +192,12 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
+    
+//    if ( _mainMessageTableView ){
+//        //一种
+//    }else{
+//        //另一种
+//    }
     return 13;
 }
 

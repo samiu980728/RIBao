@@ -8,6 +8,14 @@
 
 #import "MainJSONModel.h"
 
+@implementation StoriesJSONModel
+
+@end
+
 @implementation MainJSONModel
+
+@end
+
+@implementation TotalJSONModel
 
 @end

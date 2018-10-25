@@ -30,4 +30,8 @@
 
 @property (nonatomic, strong) StoriesJSONModel * storiesJSONModel;
 
+
+
+- (void)AnalysisJSON;
+
 @end

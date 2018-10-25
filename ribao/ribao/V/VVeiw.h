@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AnalysisJSONModel.h"
 
 @interface VVeiw : UIView
 <UITableViewDelegate,
@@ -35,6 +36,11 @@ UITableViewDataSource>
 
 //mainTableView
 @property (nonatomic, strong) UITableView * mainMessageTableView;
+
+//解析JSON数据要用到的数组
+@property (nonatomic, strong) NSMutableArray * analyJSONMutArray;
+
+@property (nonatomic, strong) AnalysisJSONModel * analyJSONModel;
 
 - (void)initView;
 

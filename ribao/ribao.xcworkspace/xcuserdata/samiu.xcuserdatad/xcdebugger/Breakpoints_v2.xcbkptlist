@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ribao/ViewController.m"
-            timestampString = "561651141.336578"
+            filePath = "ribao/V/AnalysisJSONModel.m"
+            timestampString = "561999304.038111"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
-            landmarkName = "-showSelectColumn:"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "-AnalysisJSON"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

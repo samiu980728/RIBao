@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "VVeiw.h"
+#import "mainView.h"
 @interface ViewController : UIViewController
 
 @property (nonatomic, strong) VVeiw * aView;
@@ -15,6 +16,8 @@
 @property (nonatomic, strong) VVeiw * bView;
 
 @property (nonatomic, assign) NSInteger iNum;
+
+@property (nonatomic, strong) mainView * MView;
 
 @end
 

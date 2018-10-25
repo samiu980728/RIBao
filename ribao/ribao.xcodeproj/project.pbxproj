@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		495F6F97C717E50BB7E42A60 /* libPods-ribao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B29704C2E09F5FE6426D3C /* libPods-ribao.a */; };
 		6713ACB8217C797E00722119 /* AnalysisJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6713ACB7217C797E00722119 /* AnalysisJSONModel.m */; };
+		6713ACC2217CAB2500722119 /* AnalysisJSONModel.h in Sources */ = {isa = PBXBuildFile; fileRef = 6713ACB6217C797E00722119 /* AnalysisJSONModel.h */; };
 		6719DD932175DC2D00A5A834 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6719DD922175DC2C00A5A834 /* 1.png */; };
 		6719DD982175DD7200A5A834 /* VVeiw.m in Sources */ = {isa = PBXBuildFile; fileRef = 6719DD972175DD7200A5A834 /* VVeiw.m */; };
+		6726AD23217E0DCE00C39510 /* mainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6726AD22217E0DCE00C39510 /* mainView.m */; };
 		6731545F217C175D0084C930 /* 122.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6731545E217C175D0084C930 /* 122.jpg */; };
 		67315475217C206D0084C930 /* MainJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67315474217C206D0084C930 /* MainJSONModel.m */; };
 		675AE8E22175A162000ABBD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 675AE8E12175A162000ABBD1 /* AppDelegate.m */; };
@@ -22,6 +23,8 @@
 		675AE8FA2175A162000ABBD1 /* ribaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 675AE8F92175A162000ABBD1 /* ribaoTests.m */; };
 		675AE9052175A162000ABBD1 /* ribaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 675AE9042175A162000ABBD1 /* ribaoUITests.m */; };
 		6767962F217768050038D3BB /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6767962E217768050038D3BB /* MessageTableViewCell.m */; };
+		677823EA217F24A900BAB132 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677823E9217F24A900BAB132 /* MainViewController.m */; };
+		677823EF217F570300BAB132 /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 677823EE217F570300BAB132 /* NewsTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +47,14 @@
 /* Begin PBXFileReference section */
 		6713ACB6217C797E00722119 /* AnalysisJSONModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnalysisJSONModel.h; sourceTree = "<group>"; };
 		6713ACB7217C797E00722119 /* AnalysisJSONModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnalysisJSONModel.m; sourceTree = "<group>"; };
+		6713ACB9217CA86D00722119 /* JSONModel */ = {isa = PBXFileReference; lastKnownFileType = folder; name = JSONModel; path = Pods/JSONModel; sourceTree = "<group>"; };
+		6713ACBB217CA8B500722119 /* JSONModel */ = {isa = PBXFileReference; lastKnownFileType = folder; name = JSONModel; path = Pods/JSONModel/JSONModel; sourceTree = "<group>"; };
+		6713ACBD217CA8EB00722119 /* JSONModelLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = Pods/JSONModel/JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
 		6719DD922175DC2C00A5A834 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = "../../../日报图片/1.png"; sourceTree = "<group>"; };
 		6719DD962175DD7200A5A834 /* VVeiw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVeiw.h; sourceTree = "<group>"; };
 		6719DD972175DD7200A5A834 /* VVeiw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVeiw.m; sourceTree = "<group>"; };
+		6726AD21217E0DCE00C39510 /* mainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainView.h; sourceTree = "<group>"; };
+		6726AD22217E0DCE00C39510 /* mainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainView.m; sourceTree = "<group>"; };
 		6731545E217C175D0084C930 /* 122.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 122.jpg; path = ../../../122.jpg; sourceTree = "<group>"; };
 		67315473217C206D0084C930 /* MainJSONModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainJSONModel.h; sourceTree = "<group>"; };
 		67315474217C206D0084C930 /* MainJSONModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainJSONModel.m; sourceTree = "<group>"; };
@@ -68,6 +76,10 @@
 		675AE9062175A162000ABBD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6767962D217768050038D3BB /* MessageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
 		6767962E217768050038D3BB /* MessageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		677823E8217F24A900BAB132 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		677823E9217F24A900BAB132 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		677823ED217F570300BAB132 /* NewsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		677823EE217F570300BAB132 /* NewsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
 		A1B29704C2E09F5FE6426D3C /* libPods-ribao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ribao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F7A74C721FAA42DD85C793 /* Pods-ribao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ribao.debug.xcconfig"; path = "Target Support Files/Pods-ribao/Pods-ribao.debug.xcconfig"; sourceTree = "<group>"; };
 		F5A46B85BB7AEEF906D5756E /* Pods-ribao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ribao.release.xcconfig"; path = "Target Support Files/Pods-ribao/Pods-ribao.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,7 +90,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				495F6F97C717E50BB7E42A60 /* libPods-ribao.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +128,8 @@
 				6767962E217768050038D3BB /* MessageTableViewCell.m */,
 				6713ACB6217C797E00722119 /* AnalysisJSONModel.h */,
 				6713ACB7217C797E00722119 /* AnalysisJSONModel.m */,
+				6726AD21217E0DCE00C39510 /* mainView.h */,
+				6726AD22217E0DCE00C39510 /* mainView.m */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -128,6 +141,20 @@
 				67315474217C206D0084C930 /* MainJSONModel.m */,
 			);
 			path = M;
+			sourceTree = "<group>";
+		};
+		6726AD24217E131C00C39510 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		6726AD25217E132D00C39510 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		675AE8D42175A162000ABBD1 = {
@@ -155,6 +182,9 @@
 		675AE8DF2175A162000ABBD1 /* ribao */ = {
 			isa = PBXGroup;
 			children = (
+				677823EC217F56E500BAB132 /* BASE */,
+				6726AD25217E132D00C39510 /* Resource */,
+				6726AD24217E131C00C39510 /* HTTP */,
 				6719DD952175DD5E00A5A834 /* M */,
 				6719DD942175DD5800A5A834 /* V */,
 				6719DD912175DC1300A5A834 /* pictures */,
@@ -167,6 +197,8 @@
 				675AE8EB2175A162000ABBD1 /* LaunchScreen.storyboard */,
 				675AE8EE2175A162000ABBD1 /* Info.plist */,
 				675AE8EF2175A162000ABBD1 /* main.m */,
+				677823E8217F24A900BAB132 /* MainViewController.h */,
+				677823E9217F24A900BAB132 /* MainViewController.m */,
 			);
 			path = ribao;
 			sourceTree = "<group>";
@@ -189,6 +221,15 @@
 			path = ribaoUITests;
 			sourceTree = "<group>";
 		};
+		677823EC217F56E500BAB132 /* BASE */ = {
+			isa = PBXGroup;
+			children = (
+				677823ED217F570300BAB132 /* NewsTableViewCell.h */,
+				677823EE217F570300BAB132 /* NewsTableViewCell.m */,
+			);
+			path = BASE;
+			sourceTree = "<group>";
+		};
 		86543314F9B1EB7984442DFB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +242,9 @@
 		F394A2C6574DA2C1CB9FB9D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6713ACBD217CA8EB00722119 /* JSONModelLib.h */,
+				6713ACB9217CA86D00722119 /* JSONModel */,
+				6713ACBB217CA8B500722119 /* JSONModel */,
 				A1B29704C2E09F5FE6426D3C /* libPods-ribao.a */,
 			);
 			name = Frameworks;
@@ -215,8 +259,8 @@
 			buildPhases = (
 				71E165178F2D1463451D502A /* [CP] Check Pods Manifest.lock */,
 				675AE8D92175A162000ABBD1 /* Sources */,
-				675AE8DA2175A162000ABBD1 /* Frameworks */,
 				675AE8DB2175A162000ABBD1 /* Resources */,
+				675AE8DA2175A162000ABBD1 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -363,12 +407,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6713ACC2217CAB2500722119 /* AnalysisJSONModel.h in Sources */,
 				675AE8E52175A162000ABBD1 /* ViewController.m in Sources */,
 				675AE8F02175A162000ABBD1 /* main.m in Sources */,
+				677823EA217F24A900BAB132 /* MainViewController.m in Sources */,
 				67315475217C206D0084C930 /* MainJSONModel.m in Sources */,
 				6767962F217768050038D3BB /* MessageTableViewCell.m in Sources */,
 				6713ACB8217C797E00722119 /* AnalysisJSONModel.m in Sources */,
 				675AE8E22175A162000ABBD1 /* AppDelegate.m in Sources */,
+				677823EF217F570300BAB132 /* NewsTableViewCell.m in Sources */,
+				6726AD23217E0DCE00C39510 /* mainView.m in Sources */,
 				6719DD982175DD7200A5A834 /* VVeiw.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
