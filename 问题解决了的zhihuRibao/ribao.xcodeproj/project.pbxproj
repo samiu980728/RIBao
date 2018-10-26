@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6713ACB8217C797E00722119 /* AnalysisJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6713ACB7217C797E00722119 /* AnalysisJSONModel.m */; };
+		6713ACC2217CAB2500722119 /* AnalysisJSONModel.h in Sources */ = {isa = PBXBuildFile; fileRef = 6713ACB6217C797E00722119 /* AnalysisJSONModel.h */; };
+		6719DD932175DC2D00A5A834 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6719DD922175DC2C00A5A834 /* 1.png */; };
+		6719DD982175DD7200A5A834 /* VVeiw.m in Sources */ = {isa = PBXBuildFile; fileRef = 6719DD972175DD7200A5A834 /* VVeiw.m */; };
+		672220992181E1160067E2C5 /* CellWkWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672220982181E1160067E2C5 /* CellWkWebViewController.m */; };
+		6722209C2181EACA0067E2C5 /* mainWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6722209B2181EACA0067E2C5 /* mainWKWebView.m */; };
+		6722209F2182023C0067E2C5 /* getNewsJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6722209E2182023C0067E2C5 /* getNewsJSONModel.m */; };
+		6726AD23217E0DCE00C39510 /* mainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6726AD22217E0DCE00C39510 /* mainView.m */; };
+		6731545F217C175D0084C930 /* 122.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6731545E217C175D0084C930 /* 122.jpg */; };
+		67315475217C206D0084C930 /* MainJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67315474217C206D0084C930 /* MainJSONModel.m */; };
+		675AE8E22175A162000ABBD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 675AE8E12175A162000ABBD1 /* AppDelegate.m */; };
+		675AE8E52175A162000ABBD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675AE8E42175A162000ABBD1 /* ViewController.m */; };
+		675AE8E82175A162000ABBD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 675AE8E62175A162000ABBD1 /* Main.storyboard */; };
+		675AE8EA2175A162000ABBD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 675AE8E92175A162000ABBD1 /* Assets.xcassets */; };
+		675AE8ED2175A162000ABBD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 675AE8EB2175A162000ABBD1 /* LaunchScreen.storyboard */; };
+		675AE8F02175A162000ABBD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 675AE8EF2175A162000ABBD1 /* main.m */; };
+		675AE8FA2175A162000ABBD1 /* ribaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 675AE8F92175A162000ABBD1 /* ribaoTests.m */; };
+		675AE9052175A162000ABBD1 /* ribaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 675AE9042175A162000ABBD1 /* ribaoUITests.m */; };
+		6767962F217768050038D3BB /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6767962E217768050038D3BB /* MessageTableViewCell.m */; };
+		677823EA217F24A900BAB132 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677823E9217F24A900BAB132 /* MainViewController.m */; };
+		677823EF217F570300BAB132 /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 677823EE217F570300BAB132 /* NewsTableViewCell.m */; };
+		A627772FB706C3111B366C44 /* libPods-ribao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B29704C2E09F5FE6426D3C /* libPods-ribao.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		675AE8F62175A162000ABBD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 675AE8D52175A162000ABBD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 675AE8DC2175A162000ABBD1;
+			remoteInfo = ribao;
+		};
+		675AE9012175A162000ABBD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 675AE8D52175A162000ABBD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 675AE8DC2175A162000ABBD1;
+			remoteInfo = ribao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6713ACB6217C797E00722119 /* AnalysisJSONModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnalysisJSONModel.h; sourceTree = "<group>"; };
+		6713ACB7217C797E00722119 /* AnalysisJSONModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnalysisJSONModel.m; sourceTree = "<group>"; };
+		6719DD922175DC2C00A5A834 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = "../../../日报图片/1.png"; sourceTree = "<group>"; };
+		6719DD962175DD7200A5A834 /* VVeiw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVeiw.h; sourceTree = "<group>"; };
+		6719DD972175DD7200A5A834 /* VVeiw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVeiw.m; sourceTree = "<group>"; };
+		672220972181E1160067E2C5 /* CellWkWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellWkWebViewController.h; sourceTree = "<group>"; };
+		672220982181E1160067E2C5 /* CellWkWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellWkWebViewController.m; sourceTree = "<group>"; };
+		6722209A2181EACA0067E2C5 /* mainWKWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainWKWebView.h; sourceTree = "<group>"; };
+		6722209B2181EACA0067E2C5 /* mainWKWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainWKWebView.m; sourceTree = "<group>"; };
+		6722209D2182023C0067E2C5 /* getNewsJSONModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getNewsJSONModel.h; sourceTree = "<group>"; };
+		6722209E2182023C0067E2C5 /* getNewsJSONModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = getNewsJSONModel.m; sourceTree = "<group>"; };
+		6726AD21217E0DCE00C39510 /* mainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainView.h; sourceTree = "<group>"; };
+		6726AD22217E0DCE00C39510 /* mainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mainView.m; sourceTree = "<group>"; };
+		6731545E217C175D0084C930 /* 122.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 122.jpg; path = ../../../122.jpg; sourceTree = "<group>"; };
+		67315473217C206D0084C930 /* MainJSONModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainJSONModel.h; sourceTree = "<group>"; };
+		67315474217C206D0084C930 /* MainJSONModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainJSONModel.m; sourceTree = "<group>"; };
+		675AE8DD2175A162000ABBD1 /* ribao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ribao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		675AE8E02175A162000ABBD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		675AE8E12175A162000ABBD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		675AE8E32175A162000ABBD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		675AE8E42175A162000ABBD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		675AE8E72175A162000ABBD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		675AE8E92175A162000ABBD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		675AE8EC2175A162000ABBD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		675AE8EE2175A162000ABBD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		675AE8EF2175A162000ABBD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		675AE8F52175A162000ABBD1 /* ribaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ribaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		675AE8F92175A162000ABBD1 /* ribaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ribaoTests.m; sourceTree = "<group>"; };
+		675AE8FB2175A162000ABBD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		675AE9002175A162000ABBD1 /* ribaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ribaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		675AE9042175A162000ABBD1 /* ribaoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ribaoUITests.m; sourceTree = "<group>"; };
+		675AE9062175A162000ABBD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6767962D217768050038D3BB /* MessageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		6767962E217768050038D3BB /* MessageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		677823E8217F24A900BAB132 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		677823E9217F24A900BAB132 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		677823ED217F570300BAB132 /* NewsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		677823EE217F570300BAB132 /* NewsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
+		A1B29704C2E09F5FE6426D3C /* libPods-ribao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ribao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F7A74C721FAA42DD85C793 /* Pods-ribao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ribao.debug.xcconfig"; path = "Target Support Files/Pods-ribao/Pods-ribao.debug.xcconfig"; sourceTree = "<group>"; };
+		F5A46B85BB7AEEF906D5756E /* Pods-ribao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ribao.release.xcconfig"; path = "Target Support Files/Pods-ribao/Pods-ribao.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		675AE8DA2175A162000ABBD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A627772FB706C3111B366C44 /* libPods-ribao.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675AE8F22175A162000ABBD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675AE8FD2175A162000ABBD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6719DD912175DC1300A5A834 /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				6731545E217C175D0084C930 /* 122.jpg */,
+				6719DD922175DC2C00A5A834 /* 1.png */,
+			);
+			path = pictures;
+			sourceTree = "<group>";
+		};
+		6719DD942175DD5800A5A834 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				6719DD962175DD7200A5A834 /* VVeiw.h */,
+				6719DD972175DD7200A5A834 /* VVeiw.m */,
+				6767962D217768050038D3BB /* MessageTableViewCell.h */,
+				6767962E217768050038D3BB /* MessageTableViewCell.m */,
+				6713ACB6217C797E00722119 /* AnalysisJSONModel.h */,
+				6713ACB7217C797E00722119 /* AnalysisJSONModel.m */,
+				6726AD21217E0DCE00C39510 /* mainView.h */,
+				6726AD22217E0DCE00C39510 /* mainView.m */,
+				6722209A2181EACA0067E2C5 /* mainWKWebView.h */,
+				6722209B2181EACA0067E2C5 /* mainWKWebView.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		6719DD952175DD5E00A5A834 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				67315473217C206D0084C930 /* MainJSONModel.h */,
+				67315474217C206D0084C930 /* MainJSONModel.m */,
+				6722209D2182023C0067E2C5 /* getNewsJSONModel.h */,
+				6722209E2182023C0067E2C5 /* getNewsJSONModel.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		6726AD24217E131C00C39510 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		6726AD25217E132D00C39510 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		675AE8D42175A162000ABBD1 = {
+			isa = PBXGroup;
+			children = (
+				675AE8DF2175A162000ABBD1 /* ribao */,
+				675AE8F82175A162000ABBD1 /* ribaoTests */,
+				675AE9032175A162000ABBD1 /* ribaoUITests */,
+				675AE8DE2175A162000ABBD1 /* Products */,
+				86543314F9B1EB7984442DFB /* Pods */,
+				F394A2C6574DA2C1CB9FB9D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		675AE8DE2175A162000ABBD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				675AE8DD2175A162000ABBD1 /* ribao.app */,
+				675AE8F52175A162000ABBD1 /* ribaoTests.xctest */,
+				675AE9002175A162000ABBD1 /* ribaoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		675AE8DF2175A162000ABBD1 /* ribao */ = {
+			isa = PBXGroup;
+			children = (
+				677823EC217F56E500BAB132 /* BASE */,
+				6726AD25217E132D00C39510 /* Resource */,
+				6726AD24217E131C00C39510 /* HTTP */,
+				6719DD952175DD5E00A5A834 /* M */,
+				6719DD942175DD5800A5A834 /* V */,
+				6719DD912175DC1300A5A834 /* pictures */,
+				675AE8E02175A162000ABBD1 /* AppDelegate.h */,
+				675AE8E12175A162000ABBD1 /* AppDelegate.m */,
+				675AE8E32175A162000ABBD1 /* ViewController.h */,
+				675AE8E42175A162000ABBD1 /* ViewController.m */,
+				675AE8E62175A162000ABBD1 /* Main.storyboard */,
+				675AE8E92175A162000ABBD1 /* Assets.xcassets */,
+				675AE8EB2175A162000ABBD1 /* LaunchScreen.storyboard */,
+				675AE8EE2175A162000ABBD1 /* Info.plist */,
+				675AE8EF2175A162000ABBD1 /* main.m */,
+				677823E8217F24A900BAB132 /* MainViewController.h */,
+				677823E9217F24A900BAB132 /* MainViewController.m */,
+			);
+			path = ribao;
+			sourceTree = "<group>";
+		};
+		675AE8F82175A162000ABBD1 /* ribaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				675AE8F92175A162000ABBD1 /* ribaoTests.m */,
+				675AE8FB2175A162000ABBD1 /* Info.plist */,
+			);
+			path = ribaoTests;
+			sourceTree = "<group>";
+		};
+		675AE9032175A162000ABBD1 /* ribaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				675AE9042175A162000ABBD1 /* ribaoUITests.m */,
+				675AE9062175A162000ABBD1 /* Info.plist */,
+			);
+			path = ribaoUITests;
+			sourceTree = "<group>";
+		};
+		677823EC217F56E500BAB132 /* BASE */ = {
+			isa = PBXGroup;
+			children = (
+				677823ED217F570300BAB132 /* NewsTableViewCell.h */,
+				677823EE217F570300BAB132 /* NewsTableViewCell.m */,
+				672220972181E1160067E2C5 /* CellWkWebViewController.h */,
+				672220982181E1160067E2C5 /* CellWkWebViewController.m */,
+			);
+			path = BASE;
+			sourceTree = "<group>";
+		};
+		86543314F9B1EB7984442DFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1F7A74C721FAA42DD85C793 /* Pods-ribao.debug.xcconfig */,
+				F5A46B85BB7AEEF906D5756E /* Pods-ribao.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F394A2C6574DA2C1CB9FB9D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1B29704C2E09F5FE6426D3C /* libPods-ribao.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		675AE8DC2175A162000ABBD1 /* ribao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 675AE9092175A162000ABBD1 /* Build configuration list for PBXNativeTarget "ribao" */;
+			buildPhases = (
+				71E165178F2D1463451D502A /* [CP] Check Pods Manifest.lock */,
+				675AE8D92175A162000ABBD1 /* Sources */,
+				675AE8DB2175A162000ABBD1 /* Resources */,
+				675AE8DA2175A162000ABBD1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ribao;
+			productName = ribao;
+			productReference = 675AE8DD2175A162000ABBD1 /* ribao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		675AE8F42175A162000ABBD1 /* ribaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 675AE90C2175A162000ABBD1 /* Build configuration list for PBXNativeTarget "ribaoTests" */;
+			buildPhases = (
+				675AE8F12175A162000ABBD1 /* Sources */,
+				675AE8F22175A162000ABBD1 /* Frameworks */,
+				675AE8F32175A162000ABBD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				675AE8F72175A162000ABBD1 /* PBXTargetDependency */,
+			);
+			name = ribaoTests;
+			productName = ribaoTests;
+			productReference = 675AE8F52175A162000ABBD1 /* ribaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		675AE8FF2175A162000ABBD1 /* ribaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 675AE90F2175A162000ABBD1 /* Build configuration list for PBXNativeTarget "ribaoUITests" */;
+			buildPhases = (
+				675AE8FC2175A162000ABBD1 /* Sources */,
+				675AE8FD2175A162000ABBD1 /* Frameworks */,
+				675AE8FE2175A162000ABBD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				675AE9022175A162000ABBD1 /* PBXTargetDependency */,
+			);
+			name = ribaoUITests;
+			productName = ribaoUITests;
+			productReference = 675AE9002175A162000ABBD1 /* ribaoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		675AE8D52175A162000ABBD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "萨缪";
+				TargetAttributes = {
+					675AE8DC2175A162000ABBD1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					675AE8F42175A162000ABBD1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 675AE8DC2175A162000ABBD1;
+					};
+					675AE8FF2175A162000ABBD1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 675AE8DC2175A162000ABBD1;
+					};
+				};
+			};
+			buildConfigurationList = 675AE8D82175A162000ABBD1 /* Build configuration list for PBXProject "ribao" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 675AE8D42175A162000ABBD1;
+			productRefGroup = 675AE8DE2175A162000ABBD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				675AE8DC2175A162000ABBD1 /* ribao */,
+				675AE8F42175A162000ABBD1 /* ribaoTests */,
+				675AE8FF2175A162000ABBD1 /* ribaoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		675AE8DB2175A162000ABBD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6731545F217C175D0084C930 /* 122.jpg in Resources */,
+				675AE8ED2175A162000ABBD1 /* LaunchScreen.storyboard in Resources */,
+				6719DD932175DC2D00A5A834 /* 1.png in Resources */,
+				675AE8EA2175A162000ABBD1 /* Assets.xcassets in Resources */,
+				675AE8E82175A162000ABBD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675AE8F32175A162000ABBD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675AE8FE2175A162000ABBD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71E165178F2D1463451D502A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ribao-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		675AE8D92175A162000ABBD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6713ACC2217CAB2500722119 /* AnalysisJSONModel.h in Sources */,
+				675AE8E52175A162000ABBD1 /* ViewController.m in Sources */,
+				675AE8F02175A162000ABBD1 /* main.m in Sources */,
+				677823EA217F24A900BAB132 /* MainViewController.m in Sources */,
+				67315475217C206D0084C930 /* MainJSONModel.m in Sources */,
+				6722209F2182023C0067E2C5 /* getNewsJSONModel.m in Sources */,
+				6767962F217768050038D3BB /* MessageTableViewCell.m in Sources */,
+				6713ACB8217C797E00722119 /* AnalysisJSONModel.m in Sources */,
+				672220992181E1160067E2C5 /* CellWkWebViewController.m in Sources */,
+				6722209C2181EACA0067E2C5 /* mainWKWebView.m in Sources */,
+				675AE8E22175A162000ABBD1 /* AppDelegate.m in Sources */,
+				677823EF217F570300BAB132 /* NewsTableViewCell.m in Sources */,
+				6726AD23217E0DCE00C39510 /* mainView.m in Sources */,
+				6719DD982175DD7200A5A834 /* VVeiw.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675AE8F12175A162000ABBD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675AE8FA2175A162000ABBD1 /* ribaoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675AE8FC2175A162000ABBD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675AE9052175A162000ABBD1 /* ribaoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		675AE8F72175A162000ABBD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 675AE8DC2175A162000ABBD1 /* ribao */;
+			targetProxy = 675AE8F62175A162000ABBD1 /* PBXContainerItemProxy */;
+		};
+		675AE9022175A162000ABBD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 675AE8DC2175A162000ABBD1 /* ribao */;
+			targetProxy = 675AE9012175A162000ABBD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		675AE8E62175A162000ABBD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				675AE8E72175A162000ABBD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		675AE8EB2175A162000ABBD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				675AE8EC2175A162000ABBD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		675AE9072175A162000ABBD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		675AE9082175A162000ABBD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		675AE90A2175A162000ABBD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F7A74C721FAA42DD85C793 /* Pods-ribao.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ribao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fist.ribao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		675AE90B2175A162000ABBD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5A46B85BB7AEEF906D5756E /* Pods-ribao.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ribao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fist.ribao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		675AE90D2175A162000ABBD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ribaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fist.ribaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ribao.app/ribao";
+			};
+			name = Debug;
+		};
+		675AE90E2175A162000ABBD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ribaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fist.ribaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ribao.app/ribao";
+			};
+			name = Release;
+		};
+		675AE9102175A162000ABBD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ribaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fist.ribaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ribao;
+			};
+			name = Debug;
+		};
+		675AE9112175A162000ABBD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ribaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fist.ribaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ribao;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		675AE8D82175A162000ABBD1 /* Build configuration list for PBXProject "ribao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				675AE9072175A162000ABBD1 /* Debug */,
+				675AE9082175A162000ABBD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		675AE9092175A162000ABBD1 /* Build configuration list for PBXNativeTarget "ribao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				675AE90A2175A162000ABBD1 /* Debug */,
+				675AE90B2175A162000ABBD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		675AE90C2175A162000ABBD1 /* Build configuration list for PBXNativeTarget "ribaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				675AE90D2175A162000ABBD1 /* Debug */,
+				675AE90E2175A162000ABBD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		675AE90F2175A162000ABBD1 /* Build configuration list for PBXNativeTarget "ribaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				675AE9102175A162000ABBD1 /* Debug */,
+				675AE9112175A162000ABBD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 675AE8D52175A162000ABBD1 /* Project object */;
+}
