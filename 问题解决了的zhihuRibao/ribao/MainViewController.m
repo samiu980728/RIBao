@@ -24,6 +24,12 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
+    //开启滑动返回功能代码
+    if ( [self.navigationController respondsToSelector:@selector(interactivePopGestureRecognizer)] ){
+        self.navigationController.interactivePopGestureRecognizer.delegate = nil;
+    }
+    
+    
     _messageView = [[VVeiw alloc] init];
     
     [_messageView initTableView];

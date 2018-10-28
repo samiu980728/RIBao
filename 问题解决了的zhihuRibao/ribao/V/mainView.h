@@ -44,6 +44,9 @@
 //创建顶部导航栏
 - (void)initNavigationController;
 
+//获取当前屏幕显示的ViewController
+- (UIViewController *)getCurrentVC;
+
 //创建cell点击后的跳转页面
 @property (nonatomic, strong) mainWKWebView * mainWebView;
 

@@ -11,7 +11,7 @@
 #import <Masonry.h>
 
 #import "MainJSONModel.h"
-
+#import "SecondaryMessageViewController.h"
 
 @implementation mainView
 
@@ -205,16 +205,29 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-        _mainWebView = [[mainWKWebView alloc] init];
     
-        [_mainWebView createAndGetJSONModelWKWebView];
+    //这应该push 到一个controller里
+    //在那个controller里显示webView
+//    [_mainWebView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.edges.equalTo(self);
+//    }];
     
-    [self addSubview:_mainWebView];
+    UIViewController * currentViewControlller = [self getCurrentVC];
     
-    [_mainWebView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self);
-    }];
+    SecondaryMessageViewController * secondMessageViewController = [[SecondaryMessageViewController alloc] init];
     
+    //UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:secondMessageViewController];
+    
+    [currentViewControlller presentViewController:secondMessageViewController animated:YES completion:nil];
+//    _mainWebView = [[mainWKWebView alloc] initWithFrame:self.frame];
+//
+//    [self addSubview:_mainWebView];
+//
+//        [_mainWebView createAndGetJSONModelWKWebView];
+    
+    
+    
+    //[_mainWebView recieveNotification];
 }
 
 
@@ -239,9 +252,29 @@
 
 
 
-- (void)initNavigationController
+- (UIViewController *)getCurrentVC
 {
+    UIViewController * result = nil;
     
+    UIWindow * window = [[UIApplication sharedApplication] keyWindow];
+    if ( window.windowLevel != UIWindowLevelNormal ){
+        NSArray * windows = [[UIApplication sharedApplication] windows];
+        for (UIWindow * tmpWin in windows) {
+            if ( tmpWin.windowLevel == UIWindowLevelNormal ){
+                window = tmpWin;
+                break;
+            }
+        }
+    }
+    UIView * frontView = [[window subviews] objectAtIndex:0];
+    id nextResponder = [frontView nextResponder];
+    
+    if ( [nextResponder isKindOfClass:[UIViewController class]] ){
+        result = nextResponder;
+    }else{
+        result = window.rootViewController;
+    }
+    return result;
 }
 
 

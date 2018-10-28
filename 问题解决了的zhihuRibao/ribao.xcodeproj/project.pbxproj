@@ -17,6 +17,7 @@
 		6726AD23217E0DCE00C39510 /* mainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6726AD22217E0DCE00C39510 /* mainView.m */; };
 		6731545F217C175D0084C930 /* 122.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6731545E217C175D0084C930 /* 122.jpg */; };
 		67315475217C206D0084C930 /* MainJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67315474217C206D0084C930 /* MainJSONModel.m */; };
+		673F3AF22184454B0078C0F8 /* SecondaryMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673F3AF12184454B0078C0F8 /* SecondaryMessageViewController.m */; };
 		675AE8E22175A162000ABBD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 675AE8E12175A162000ABBD1 /* AppDelegate.m */; };
 		675AE8E52175A162000ABBD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 675AE8E42175A162000ABBD1 /* ViewController.m */; };
 		675AE8E82175A162000ABBD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 675AE8E62175A162000ABBD1 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		675AE8FA2175A162000ABBD1 /* ribaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 675AE8F92175A162000ABBD1 /* ribaoTests.m */; };
 		675AE9052175A162000ABBD1 /* ribaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 675AE9042175A162000ABBD1 /* ribaoUITests.m */; };
 		6767962F217768050038D3BB /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6767962E217768050038D3BB /* MessageTableViewCell.m */; };
+		676F34372185B4B50079676A /* SecondMessageNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 676F34362185B4B50079676A /* SecondMessageNavigationViewController.m */; };
 		677823EA217F24A900BAB132 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677823E9217F24A900BAB132 /* MainViewController.m */; };
 		677823EF217F570300BAB132 /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 677823EE217F570300BAB132 /* NewsTableViewCell.m */; };
 		A627772FB706C3111B366C44 /* libPods-ribao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B29704C2E09F5FE6426D3C /* libPods-ribao.a */; };
@@ -65,6 +67,8 @@
 		6731545E217C175D0084C930 /* 122.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 122.jpg; path = ../../../122.jpg; sourceTree = "<group>"; };
 		67315473217C206D0084C930 /* MainJSONModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainJSONModel.h; sourceTree = "<group>"; };
 		67315474217C206D0084C930 /* MainJSONModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainJSONModel.m; sourceTree = "<group>"; };
+		673F3AF02184454B0078C0F8 /* SecondaryMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondaryMessageViewController.h; sourceTree = "<group>"; };
+		673F3AF12184454B0078C0F8 /* SecondaryMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondaryMessageViewController.m; sourceTree = "<group>"; };
 		675AE8DD2175A162000ABBD1 /* ribao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ribao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		675AE8E02175A162000ABBD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		675AE8E12175A162000ABBD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 		675AE9062175A162000ABBD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6767962D217768050038D3BB /* MessageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
 		6767962E217768050038D3BB /* MessageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		676F34352185B4B50079676A /* SecondMessageNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondMessageNavigationViewController.h; sourceTree = "<group>"; };
+		676F34362185B4B50079676A /* SecondMessageNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondMessageNavigationViewController.m; sourceTree = "<group>"; };
 		677823E8217F24A900BAB132 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		677823E9217F24A900BAB132 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		677823ED217F570300BAB132 /* NewsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
@@ -211,6 +217,8 @@
 				675AE8EF2175A162000ABBD1 /* main.m */,
 				677823E8217F24A900BAB132 /* MainViewController.h */,
 				677823E9217F24A900BAB132 /* MainViewController.m */,
+				673F3AF02184454B0078C0F8 /* SecondaryMessageViewController.h */,
+				673F3AF12184454B0078C0F8 /* SecondaryMessageViewController.m */,
 			);
 			path = ribao;
 			sourceTree = "<group>";
@@ -240,6 +248,8 @@
 				677823EE217F570300BAB132 /* NewsTableViewCell.m */,
 				672220972181E1160067E2C5 /* CellWkWebViewController.h */,
 				672220982181E1160067E2C5 /* CellWkWebViewController.m */,
+				676F34352185B4B50079676A /* SecondMessageNavigationViewController.h */,
+				676F34362185B4B50079676A /* SecondMessageNavigationViewController.m */,
 			);
 			path = BASE;
 			sourceTree = "<group>";
@@ -420,9 +430,11 @@
 			files = (
 				6713ACC2217CAB2500722119 /* AnalysisJSONModel.h in Sources */,
 				675AE8E52175A162000ABBD1 /* ViewController.m in Sources */,
+				676F34372185B4B50079676A /* SecondMessageNavigationViewController.m in Sources */,
 				675AE8F02175A162000ABBD1 /* main.m in Sources */,
 				677823EA217F24A900BAB132 /* MainViewController.m in Sources */,
 				67315475217C206D0084C930 /* MainJSONModel.m in Sources */,
+				673F3AF22184454B0078C0F8 /* SecondaryMessageViewController.m in Sources */,
 				6722209F2182023C0067E2C5 /* getNewsJSONModel.m in Sources */,
 				6767962F217768050038D3BB /* MessageTableViewCell.m in Sources */,
 				6713ACB8217C797E00722119 /* AnalysisJSONModel.m in Sources */,

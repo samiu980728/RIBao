@@ -13,7 +13,7 @@
 #import "getNewsJSONModel.h"
 @interface mainWKWebView : UIView
 
-<WKNavigationDelegate, WKUIDelegate>
+<WKNavigationDelegate, WKUIDelegate, UIGestureRecognizerDelegate>
 @property (nonatomic, strong) WKWebView * webView;
 
 @property (nonatomic, strong) WKUserContentController * userContentController;
@@ -25,7 +25,12 @@
 
 @property (nonatomic, copy) NSString * modelStr;
 
+@property (nonatomic, strong) UIImageView * snakeImageView;
+
+@property (nonatomic, strong) UIPanGestureRecognizer * panGestureRecognizer;
+
 - (void)createAndGetJSONModelWKWebView;
 
+- (void)recieveNotification;
 
 @end
